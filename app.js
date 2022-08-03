@@ -50,6 +50,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(5051, console.log(`http server is running ha ha`))
+app.listen(5051, console.log(`http server is running`))
 
 module.exports = app;
