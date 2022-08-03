@@ -12,6 +12,8 @@ mongoose.connect(`mongodb://localhost:27017/trade?authSource=admin`, { auth: {us
 
 
 
+
+
 require('./libs/telegram/mafiaBot');
 
 // var indexRouter = require('./routes/index');
@@ -48,6 +50,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(5051, console.log(`http server is running`))
+app.listen(5051, console.log(`http server is running ha ha`))
 
 module.exports = app;
